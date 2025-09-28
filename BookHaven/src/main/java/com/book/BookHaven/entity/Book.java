@@ -33,7 +33,7 @@ public class Book {
     @Column(length = 255)
     private String genre;
 
-    @Column(columnDefinition = "LONGTEXT")
+    @Column(length = 10000)
     private String description;
 
     @Column(nullable = false, precision = 10, scale = 2)
